@@ -1,4 +1,3 @@
-# c-programming-projects
 #include <stdio.h>
 
 int main()
