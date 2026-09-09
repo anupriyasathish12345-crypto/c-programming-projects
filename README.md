@@ -1,2 +1,31 @@
 # c-programming-projects
-My C programming journey as a first-year B.Tech AI &amp; Data Science student, showcasing my projects, practice programs, problem-solving skills, and progress as I learn, build, and grow as a programmer.
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    char op;
+    printf("enter the operator */+-\n");
+    scanf("%c",&op);
+    printf("enter the no");
+    scanf("%d %d",&a,&b);
+    
+    switch(op){
+        case '+':
+        printf("%d",a+b);
+        break;
+        case '-':
+        printf("%d",a-b);
+        break;
+        case '*':
+        printf("%d",a*b);
+        break;
+        case '/':
+        printf("%d",a/b);
+        break;
+        default:printf("invalid operation");
+        return 0;
+        
+    }
+    
+}
