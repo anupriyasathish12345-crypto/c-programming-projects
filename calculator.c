@@ -20,7 +20,10 @@ int main()
         printf("%d",a*b);
         break;
         case '/':
-        printf("%d",a/b);
+        if(b!=0)
+            printf("can't be divide by zero")
+        else
+            printf("%d",a/b);
         break;
         default:printf("invalid operation");
         return 0;
