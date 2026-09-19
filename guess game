@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(){
+    int guess,num,i;
+    srand(time(0));
+    num=rand()%100+1;
+    printf("enter the guss no from 1to 100");
+    for(i=0;i<5;i++){
+    scanf("%d",&guess);
+    if(guess>num)
+    printf("too high\n");
+    
+    else if (guess<num)
+    
+    printf("t00 low\n");
+    }
+    printf("u lost the chance try again nxt time :(");
+    return 0;
+    }
